@@ -21,8 +21,9 @@ import Addcert from './pages/addcertification';
 import Freelancersignup from './pages/freelancersignup';
 import Clientsignup from './pages/clientsignup';
 import Home from './pages/clienthome';
-
-
+import Message from './pages/message';
+import Addrole from "./pages/addrole"
+import Providerhome from './pages/providerhome';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -40,7 +41,9 @@ root.render(
           <Route path='/getting-started/experience' element={<Experience />} />
           <Route path="/getting-started/bio" element={<Addbio />} />
           <Route path='/getting-started/certification' element={<Addcert />} />
-          <Route path='/getting-started/message' element={<Message />} />
+          <Route path='/message' element={<Message />} />
+          <Route path='/getting-started/role' element={<Addrole />} />
+          <Route path='/providerhome' element={<Providerhome hide={{display: 'none'}}/>} />
        </Routes>
     </BrowserRouter>
   </React.StrictMode>

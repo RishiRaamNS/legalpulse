@@ -35,8 +35,8 @@ function Education() {
          </label>
       </div></div>
       
-    <Link to='/getting-started/experience'>
-    <Getstartbottomnav botButton="Add Your Experience" />
+    <Link to='/getting-started/certification'>
+    <Getstartbottomnav botButton="Next, add your certifications" />
     </Link>
     </div>
   )

@@ -21,13 +21,13 @@ export default function Experience() {
       <div className='inside-Box1'> 
       <div className='inside-Box'>
       <AiFillPlusCircle className="icon" />
-       <p>Add Education</p>
+       <p>Add Experience</p>
       </div>
       </div>
       </div>
       <div>
-      <Link to='/getting-started/certification'>
-      <Getstartbottomnav botButton = "Add your Certification"/>
+      <Link to='/getting-started/education'>
+      <Getstartbottomnav botButton = "Next, add your education"/>
       </Link>
       </div>
     </div>

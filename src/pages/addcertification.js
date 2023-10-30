@@ -1,7 +1,7 @@
 import Getstartbottomnav from "../components/getstartbottomnav";
 import Getstartnavbar from "../components/getstartnavbar";
 import { AiFillPlusCircle } from "react-icons/ai";
-
+import { Link } from "react-router-dom";
 export default function Addcert() {
   return (
     <div className="Addcert">
@@ -20,7 +20,7 @@ export default function Addcert() {
       <div className='inside-Box1'> 
       <div className='inside-Box'>
       <AiFillPlusCircle className="icon" />
-       <p>Add Education</p>
+       <p>Add Certification</p>
       </div>
       </div>
       </div>
@@ -32,7 +32,10 @@ export default function Addcert() {
          </label>
       </div>
       </div>
-     <Getstartbottomnav />      
+      <Link to="/home">
+
+     <Getstartbottomnav botButton="Complete my profile"/>      
+    </Link>
     </div>
   );
 }

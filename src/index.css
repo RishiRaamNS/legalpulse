@@ -138,7 +138,7 @@ code {
 }
 
 .heading {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-size: 36px;
   font-weight: 700;
 }
@@ -310,7 +310,7 @@ background-color: #FDFFFC;
   background-color: blue;
 }
 .navbar {
-  padding: 0 30px !important;
+  padding: 20px 30px !important;
 }
 .navbar-brand {
    font-family: 'Bebas Neue', sans-serif;
@@ -1095,7 +1095,7 @@ border-color: #007bff; /* Change border color on hover */
 
 
 .navbar-bottom {
-  padding: 20px;
+  padding: 20px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1104,6 +1104,7 @@ border-color: #007bff; /* Change border color on hover */
   position: absolute;
   bottom: 0px;
   width: 100vw;
+
 }
 
 .navbar-bottom .add {
@@ -1120,7 +1121,7 @@ border-color: #007bff; /* Change border color on hover */
 
 .navbar-bottom .back {
   border: none;
-  padding: 9px 12px;
+  padding: 10px 30px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -1159,8 +1160,10 @@ border-color: #007bff; /* Change border color on hover */
 .content {
   max-width: auto;
   margin-left: 9%;
-  padding: 20px;
-
+  padding-top: 80px;
+  padding-left: 10px;
+  padding-right: 600px;
+  
 }
 
 .add-experience {
@@ -1174,7 +1177,7 @@ border-color: #007bff; /* Change border color on hover */
   margin-bottom: auto;
   height: 262px;
   width: 490px;
-  border: 2px dashed #E4EBE4;
+  border: 2px solid #E4EBE4;
   border-radius: 10px;
 }
 /* Certification */
@@ -1392,4 +1395,77 @@ border-color: #007bff; /* Change border color on hover */
 
 .home-searchbtn {
   margin-bottom: 5px;
+}
+
+/* Add Role */
+
+.choose-role {
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+  padding-left: 80px;
+  padding-right: 700px;
+
+}
+
+.choose-role h1 {
+  margin-bottom: 10px;
+  font-size: 38px;
+}
+
+.choose-role > select {
+  width: 700px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.choose-role > p {
+  font-weight: 500;
+}
+
+.choose-role > h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+/* Message*/
+.message{
+ margin-left: 2%;
+}
+.message-sidebar{
+ background:#f1f1f3; 
+ height: 616px;
+ width: 350px;
+ text-align: center;
+ border-radius: 25px;
+ padding: 20px;
+ font-size: large;
+ margin-top: 1%;
+}
+.searchbar {
+  width: 335px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.searchbar-box{
+  display: flex;
+   flex-direction: row;
+   justify-content: space-between ;
+}
+
+/* Provider Home */
+.provider-home-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.provider-home-heading {
+  margin-bottom: 40px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px;
 }
