@@ -8,12 +8,12 @@ import { FiSearch } from 'react-icons/fi';
 import { FaShieldHalved } from "react-icons/fa6";
 import { LiaUserClockSolid } from "react-icons/lia";
 
-
 import Lawyerinfo from './components/Lawyerinfo'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 var input = document.getElementById("myinput");
+
 if(input) {
 input.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
@@ -22,6 +22,7 @@ input.addEventListener("keypress", function(event) {
   }
 });
 }
+
 const providers = [
   " Advocates",
   " Document Writers",
@@ -29,8 +30,6 @@ const providers = [
   " Arbitrators",
   " Legal Consultants",
 ];
-
-
 
 function App() {
   const navigate = useNavigate();
@@ -47,6 +46,7 @@ function App() {
 
     return () => clearInterval(interval);
   });
+  
   const resetState = () => {
     setIndex(0);
   };

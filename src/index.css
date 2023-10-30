@@ -1088,3 +1088,117 @@ border-color: #007bff; /* Change border color on hover */
   text-decoration: none;
   color: blue;
 }
+
+
+.Education {
+  height: 100vh;
+}
+
+.getstart-navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: auto;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+}
+
+.getstart-navbar h1 {
+  color: black;
+}
+
+.getstart-navbar .profile-img {
+  margin-left: auto;
+}
+
+.getstart-navbar img {
+  margin-left: auto;
+  text-decoration: none;
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.getstart-navbar img:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.content {
+  max-width: auto;
+  margin-top: 40px;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.add-experience {
+  max-width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: auto;
+  margin-bottom: auto;
+  height: 160px;
+  width: 280px;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+.navbar-bottom {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: auto;
+  border-top: 1px solid black;
+  background-color: white;
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+}
+
+.navbar-bottom .add {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 9px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.navbar-bottom .back {
+  border: none;
+  padding: 9px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.icon {
+  font-size: x-large;
+  margin-right: 8px;
+  margin-bottom: 5px;
+}
+
+.checkbox input:checked ~ .checkmark {
+  background-color: blue;
+}
+
+.check-box-div{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.check-box{
+  margin-right: 10px;
+}

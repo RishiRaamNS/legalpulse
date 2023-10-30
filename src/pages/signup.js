@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { AiFillCaretDown } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Signup = () => {
   const [open, setOpen] = useState(false);
@@ -54,7 +55,7 @@ const Signup = () => {
           </label>
         </div>
         <div className="create-btn">
-          <button>Create my account</button>
+          <Link to="/getting-started/join">Create my account</Link>
         </div>
         <div className="alter">
           <p>
