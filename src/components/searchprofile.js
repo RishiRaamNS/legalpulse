@@ -1,13 +1,13 @@
 import {BiUserCircle} from "react-icons/bi"
 
 
-export default function Searchprofile() {
+export default function Searchprofile({name}) {
     return(
         <div className='search--profile'>
 <BiUserCircle className='search--profile-icon' />
-<h2 className='search--name'>Rishi Raam</h2>
+<h2 className='search--name'>{name}</h2>
 <h2 className='search--profession'>Lawyer</h2>
-<h2 className='search--location'>India</h2>
+<h2 className='search--location'>Chennai, TamilNadu</h2>
 <div className='search--row-container'>
 <p>$20k+ earned</p>
 <p>⭐4.5</p>

@@ -32,8 +32,8 @@ function search() {
           <div className='search--right-side'>
             <input className='search--search-bar'></input>
             <FiSearch className='search--search-icon'/>
-            <Searchprofile />
-            <Searchprofile />
+            <Searchprofile name={"Tamizhselvan"} />
+            <Searchprofile name={"Nito Tony"} />
           </div>
           </div>
      </div>

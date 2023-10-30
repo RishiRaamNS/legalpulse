@@ -5,7 +5,7 @@ export default function Navbar({hide, hide1, show}) {
   return (
     <nav className="navbar">
       <div className="container-fluid">
-        <h1 className="navbar-brand navbar-legal">LegalPulse</h1>
+        <Link to="/" className="navbar-brand navbar-legal">LegalPulse</Link>
         <div className="navbar--right-side">
           <a className="nav-link">Learn</a>
           <a className="nav-link">About</a>

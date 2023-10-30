@@ -1465,7 +1465,7 @@ border-color: #007bff; /* Change border color on hover */
   border-radius: 20px;
 }
 .nav-linkk {
-  visibility: hidden;
+  display: none;
 }
 .message-left-paragraph {
   margin-top: 200px;
@@ -1508,7 +1508,7 @@ border-color: #007bff; /* Change border color on hover */
 .message-search-icon {
  position: absolute;
  float: left;
- top: 26.6%;
+ top: 28%;
  left: 20px;
 }
 /* Provider Home */
