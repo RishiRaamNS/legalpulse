@@ -1,0 +1,1090 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Inter';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.btn {
+  margin: 0;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-5 {
+  text-align: center;
+  color: white;
+}
+.hero-img {
+  width: 42rem;
+  height: 27rem;
+}
+
+.feature--img {
+  width: 42rem;
+  height: 27rem;
+}
+
+.section-4 {
+  padding-left: 10px;
+}
+
+.slogan {
+  margin: 60px 30px 15px 30px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.sub-heading {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+
+.get-started {
+  padding: 15px 30px;
+}
+
+.section {
+  padding: 70px 30px;
+}
+
+.top-section {
+  padding: 30px 30px;
+}
+
+.section-2 {
+  text-align: center;
+  /* background-color: #BCD2EE; */
+}
+
+.search-bar {
+  border: none;
+  width: 100%;
+}
+
+
+.search-bar:active {
+  border: none;
+  outline: none;
+}
+
+.search-bar:focus {
+  outline: none;
+}
+.search-icon {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.search-wrapper {
+  width: 30%;
+  margin-left: auto;
+  margin-top: 40px;
+  margin-right: auto;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px 0px;
+  margin-bottom: 30px;
+}
+
+.sliding-text {
+  color: blue;
+}
+
+.dropdown {
+  margin-bottom: 50px;
+  display: inline;
+}
+
+#input {
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+#input:focus {
+  border: 1px solid gray;
+  outline: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 100%;
+}
+
+.heading {
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.section-3 {
+  text-align: center;
+}
+
+.section-4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-4 > .right-container {
+  width: 45%;
+  height: max-content;
+}
+
+.feature--subheading {
+  font-size: 24px;
+  display: inline;
+}
+
+.feature--paragraph {
+  font-size: 15px;
+  margin-bottom: 30px;
+  margin-left: 52px;
+}
+
+.feature--heading {
+  margin-bottom: 25px;
+  font-size: 32px;
+}
+
+.feature--icon {
+  width: 25px;
+  height: 25px;
+  margin: 0 10px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+}
+
+.btn-white {
+  border: 1px black solid;
+}
+
+.section-5 {
+  background-color: #C6C6E7;
+}
+
+.learn--card {
+  background-color: white;
+  color: black;
+  margin: 10px 20px;
+  padding: 25px 40px;
+  text-align: left;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.learn--card:hover {
+  transform: scale(1.1);
+}
+
+.learn--heading {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.learn--content {
+  font-size: 15px;
+}
+
+.section-5 > a {
+  background-color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  margin-top: 50px;
+}
+
+.grid-container--2 {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+
+/* LawyerInfo */
+.Lawyerinfo {
+  text-align: center;
+background-color: #FDFFFC;
+  padding: 30px 10px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  max-height: max-content;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.Lawyerinfo:hover{
+  transform: scale(1.05);
+}
+.Lawyerinfo--image {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.Lawyerinfo--name {
+  font-size: 26px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.Lawyerinfo--profession {
+  font-size: 16px;
+}
+
+.Lawyerinfo--rating {
+  color: gray;
+  font-size: 14px;
+}
+
+.Lawyerinfo--fieldchips {
+  background-color: #EBEEFF;
+  border-radius: 25px;
+  color: black; 
+  padding: 7px 10px;
+  max-width: fit-content;
+  margin: 7px 10px;
+  cursor: pointer;
+  transition: all .2s;
+  display: inline-block;
+}
+
+.Lawyerinfo--fieldchips:active {
+  transform: scale(0.7);
+}
+
+.lastchip {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Lawyerinfo > a {
+  text-decoration: none;
+}
+
+.Lawyerinfo--seemore {
+  margin: 30px;
+  margin-bottom: 10px;
+}
+
+/* Navbar */
+.btn-blue {
+  background-color: blue;
+}
+
+.navbar-brand {
+    margin-bottom: 0;
+    font-size: 36px;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.navbar--right-side > a {
+  margin-left: 30px;
+}
+
+.navbar--right-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Footer */
+.Footer {
+  background-color: #100821;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.footer--links {
+  margin: 10px 20px;
+}
+
+.footer--left-side {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  float: left;
+}
+.footer--right-side {
+ position: relative;
+  float: right;
+  right: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer--right-side > a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Container */
+
+.Container {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+  padding-top: 0;
+  height: 100vh;
+  padding-bottom: 0;
+}
+
+.container--heading {
+  margin-bottom: 0px;
+  font-size: 28px;
+  margin-top: 100px;
+  font-weight: 700;
+}
+
+.signin-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.brand {
+  border: 1px solid gray;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0px 0.7rem;
+  border-radius: 6px;
+}
+.input-wrapper {
+  position: absolute;
+}
+.input {
+  padding: 15px 30% 10px 30%;
+  padding-left: 5px;
+  margin-top: 10px;
+  border: none;
+  transition: all 1s;
+  outline: none;
+  border-bottom: 1px solid black;
+  box-shadow: none !important;
+}
+
+.floating-label-1 {
+  font-size: 15px;
+  color: black;
+  position: relative;
+  pointer-events: none;
+  top: -50px;
+  right: 130px;
+  transition: all 0.1s ease;
+}
+.floating-label-2 {
+  font-size: 15px;
+  color: black;
+  position: relative;
+  pointer-events: none;
+  top: -30px;
+  right: 130px;
+  transition: all 0.1s ease;
+}
+
+
+.first-input:active ~ .floating-label-1, .first-input:focus ~ .floating-label-1
+ {
+  top: -70px;
+  right: 148px;
+  opacity: 1;
+  color: #404040;
+  font-size: 13px;
+}
+
+.second-input:active ~ .floating-label-2, .second-input:focus ~ .floating-label-2
+{
+top: -50px;
+  right: 135px;
+  opacity: 1;
+  color: #404040;
+  font-size: 13px;}
+
+
+.floating-label-1 {
+  right: 140px;
+}
+
+
+
+.first-input {
+  
+  margin-bottom: 10px;
+}
+
+
+.container--btn {
+  padding: 10px 100px;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 30px;
+  color: white;
+  background-color: #6c63ff;
+  margin-left: 0;
+  transition: all 0.5s;
+}
+
+.container--footer-text, .container--footer-link {
+  font-size: 14px;
+  margin: 0;
+  margin-top: 120px;
+}
+
+.container--footer-link {
+  font-weight: 700;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.container--footer-link:hover {
+  border-bottom: 1px solid black;
+}
+
+.container--footer-link:active {
+  opacity: 40%;
+}
+
+.btn-wrapper {
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+background-color: #f4f2f5;
+  padding: 10px 30px;
+  border-radius: 30px;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.btn-wrapper:active, .container--btn:active {
+  transform: scale(0.9);
+  opacity: 70%;
+}
+.container--btn-2 {
+  
+  margin: 0;
+  text-align: center;
+}
+
+.google-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.container--btn:hover,
+.brand:hover {
+  cursor: pointer;
+}
+
+.brand:hover,
+.brand:active {
+  background-color: aliceblue;
+}
+
+.brand-icon {
+  width: 15px;
+  height: 15px;
+  margin: 2px 7px;
+}
+
+/* Utility Classes */
+
+.left-align {
+  text-align: right;
+  width: 60%;
+  font-size: 0.75rem;
+  margin-top: 0px;
+  color: gray;
+}
+
+.para {
+  font-size: 14px;
+  margin-bottom: 60px;
+}
+
+.mediumtxt {
+  font-size: 0.8rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 720px) {
+  .Container {
+    width: 40%;
+  }
+}
+
+/* Signup */
+
+.Signup {
+  font-family: 'Inter';
+  height: 100vh;
+  margin: 0;
+  font-size: 62.5%;
+  overflow: hidden;
+  background-color: #eae9eb;
+}
+
+/* Login */
+
+
+.Login {
+  font-family: Inter, sans-serif;
+  height: 100vh;
+  margin: 0;
+  font-size: 62.5%;
+  overflow: hidden;
+  background-color: #eae9eb;
+}
+
+.login--flex-wrapper {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.login--hero-img {
+  width: 45%;
+  height: 45%;
+}
+
+.login--left-container {
+    height: 100vh;
+    text-align: center;
+}
+
+
+.login--hero-img {
+    margin-top: 25%;
+}
+
+.icon {
+  height: 50px;
+  width: 40px;
+}
+
+.Header {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: left;
+  position: absolute;
+  padding: 15px 5px;
+}
+
+.signup-btn {
+  background-color: #3282b8;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.right-align {
+  position: relative;
+  float: right;
+  bottom: 47px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.brand-name {
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 2.3rem;
+}
+
+
+
+/* Search */
+
+.search--grid-container {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  margin-top: 80px;
+  margin-left: 10px;
+  margin-right: 80px;
+}
+
+.filter--heading {
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.filter--subheading {
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.search--left-side {
+  padding: 30px;
+  margin-left: 90px;
+}
+
+.filter--option {
+margin-right: 10px;
+margin-left: 10px;
+}
+
+.filter--location {
+  width: 180px;
+margin-left: 10px;
+}
+
+.search--right-side {
+  padding: 30px 0;
+  border: 1px solid #d5e0d5;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.search--search-bar {
+  width: 85%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid gray;
+  margin-bottom: 30px;
+}
+
+.search--search-icon {
+  position: relative;
+  float: right;
+  right: 90px;
+  top: 5px;
+}
+
+
+
+.search--name {
+  color: blue;
+}
+
+.search--row-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/*  Search Profile */
+
+.search--profile {
+  width: 100%;
+  border-bottom: 1px solid #d5e0d5;
+  border-top: 1px solid #d5e0d5;
+  padding: 20px 40px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.search--profile-icon {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  top: 10px;
+}
+
+.search--summary{
+  font-size: 15px;
+}
+
+.search--profile:hover {
+  background-color: #f0f6ff;
+}
+
+.search--location {
+  color: #6699CC;
+  font-size: 14px;
+margin-top: 2px;
+}
+
+.search--name, .search--profession, .search--location {
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Join page */
+.join {
+  text-align: center;
+}
+
+.join-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .join-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.join-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.join-link {
+  color: #61dafb;
+}
+
+@keyframes join-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.join-navbar {
+  background-color: #007bff; /* Background color for the navbar */
+  color: #fff; /* Text color for the navbar */
+  padding: 10px 0; /* Add padding for top and bottom spacing */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style for the navbar-brand (title) */
+.join-navbar-brand a {
+  text-decoration: none; /* Remove underlines from the title link */
+  color: #fff; /* Text color for the title link */
+  font-size: 24px; /* Font size for the title */
+  font-weight: bold; /* Make the title bold */
+}
+
+/* Style for the navigation links (navbar-nav) */
+.navbar-nav {
+  list-style: none; /* Remove list-style bullets */
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for individual navigation items (nav-item) */
+.nav-item {
+  display: inline-block; /* Display the items horizontally */
+  margin-right: 20px; /* Add margin between items */
+}
+
+/* Style for the navigation links (anchor elements) */
+.join-nav-item a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #fff; /* Text color for links */
+  font-weight: bold; /* Make the links bold */
+  font-size: 16px; /* Font size for links */
+}
+
+.Head {
+  max-width: 600px;
+  max-height: 80000px;
+  margin: 20px auto;
+  margin-top: 100px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+
+}
+  
+/* Style for the heading */
+.Head h1 {
+  font-size: 24px;
+  color: #000000;
+}
+
+/* Style for the instruction paragraph */
+.Head p {
+  font-size: 16px;
+  color: #666;
+}
+/* Style for the radio button labels */
+.Head .horizontal-options {
+  display: flex;
+  flex-direction: row; /* Display the options horizontally */
+  justify-content: center; /* Center the options horizontally */
+}
+/* Style for the radio button labels */
+.Head .option {
+  color: #000000;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  font-weight: bold;
+  font-style: initial;
+  border: 2px solid #9e9a9a;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer; /* Add a cursor pointer to indicate interactivity */
+  transition: border-color 0.3s; /* Add a transition for border color change */
+}
+
+.Head .option:hover {
+border-color: #007bff; /* Change border color on hover */
+}
+
+/* Style for the radio button images */
+.Head .option img {
+  width: 40px;
+  height: 40px;
+  size: 50px;
+  margin-right: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Style for the radio buttons */
+.Head input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Style for the Apply button */
+.Head button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.Head button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the "Log In" link */
+.Head a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 0;
+}
+
+.Head a:hover {
+  text-decoration: underline;
+}
+
+/* Signup */
+
+.signup {
+  height: 100vh;
+  width: 100vw;
+}
+
+.signup-navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: auto;
+  margin: 0 auto;
+}
+
+.signup-navbar h1 {
+  color: black;
+}
+
+.signup-navbar p {
+  font-size: 15px;
+}
+
+.signup-navbar a{
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-navbar a:hover{
+  cursor: pointer;
+}
+
+.main{
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  margin: auto auto;
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main h1{
+  margin: auto;
+}
+
+.main .names{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+  margin: 30px auto 15px auto;
+}
+
+.main .email-pass{
+  margin: 15px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85px;
+  width: 500px;
+}
+
+.main input{
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px;
+  &:focus{
+    outline: none;
+  }
+}
+
+.dropbtn{
+  border: 1px solid grey;
+  width: 500px;
+  height: 28px;
+  margin: 15px auto 0px;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.dropdown-menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+  transition: var(--speed) ease;
+  border: 1px solid grey;
+  width: 500px;
+  margin: 0px auto;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+.dropdown-menu.inactive {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: var(--speed) ease;
+  margin: 0px;
+}
+
+.check-box-div a{
+  color: blue;
+  text-decoration: none;
+}
+
+.check-box-div{
+  width: 500px;
+  height: 80px;
+  margin: 0px auto 15px;
+  padding: 5px;
+  border-radius: 5px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.check-box{
+  margin-right: 10px;
+}
+
+.create-btn button{
+  width: 500px;
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: blue;
+  color: white;
+}
+
+.create-btn{
+  margin: 0px auto;
+}
+
+.alter{
+  margin: 15px auto 0px;
+
+}
+
+.alter a{
+  text-decoration: none;
+  color: blue;
+}
