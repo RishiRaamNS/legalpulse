@@ -11,7 +11,7 @@ export default function Navbar() {
           <a className="nav-link">About</a>
           <a className="nav-link">My Profile</a>
           <Link to="/login" className="nav-link">Login</Link>
-          <Link to="/signup" className="btn btn-primary">Sign up</Link>
+          <Link to='/getting-started/join' className="btn btn-primary">Sign up</Link>
         </div>
       </div>
     </nav>

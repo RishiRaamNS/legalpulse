@@ -63,7 +63,7 @@ function App() {
         <p className="sub-heading">
           Your gateway to a simplified and efficient legal experience.
         </p>
-        <Link to="/signup" className="btn btn-primary get-started">
+        <Link to='/getting-started/join' className="btn btn-primary get-started">
           Get started
         </Link>
       </div>

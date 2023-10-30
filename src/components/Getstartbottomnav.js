@@ -1,8 +1,14 @@
-const BottomNav = () => {
+import { Link, useNavigate } from "react-router-dom";
+
+export default function Getstartbottomnav(props) {
+    const navigate = useNavigate();
     return ( <nav className="navbar-bottom">
-        <button className="back">Back</button>
-        <button className="add">Add your Education</button>
+        <button onClick={() => navigate(-1)} className="back">Back</button>
+        
+        <div>     
+           <button className="add">{props.botButton}</button>
+        </div>
+        
     </nav> );
 }
- 
-export default BottomNav;
+
