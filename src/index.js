@@ -24,6 +24,8 @@ import Home from './pages/clienthome';
 import Message from './pages/message';
 import Addrole from "./pages/addrole"
 import Providerhome from './pages/providerhome';
+import Learn from './pages/learn';
+import Profile from './pages/profile';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -44,6 +46,8 @@ root.render(
           <Route path='/message' element={<Message />} />
           <Route path='/getting-started/role' element={<Addrole />} />
           <Route path='/providerhome' element={<Providerhome hide={{display: 'none'}}/>} />
+          <Route path='/learn' element={<Learn />} />
+          <Route path='/profile' element={<Profile />} />
        </Routes>
     </BrowserRouter>
   </React.StrictMode>

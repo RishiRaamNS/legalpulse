@@ -2,11 +2,11 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Searchprofile from '../components/searchprofile'
 import {FiSearch} from "react-icons/fi"
-
+import { Link } from 'react-router-dom'
 function search() {
   return (
       <div className='searchlisting'>
-        <Navbar />
+        <Navbar hide1={{display: 'none'}} />
         <div className='search--grid-container'>
           <div className='search--left-side'>
             <h1 className='filter--heading'>Filter By</h1>
@@ -32,8 +32,9 @@ function search() {
           <div className='search--right-side'>
             <input className='search--search-bar'></input>
             <FiSearch className='search--search-icon'/>
-            <Searchprofile name={"Tamizhselvan"} />
-            <Searchprofile name={"Nito Tony"} />
+         <Link to="/profile" className='blah-blah'>
+  <Searchprofile name={"Tamizhselvan"} />       
+            <Searchprofile name={"Nito Tony"} />  </Link>   
           </div>
           </div>
      </div>

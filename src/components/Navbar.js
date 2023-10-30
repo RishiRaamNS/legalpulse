@@ -7,7 +7,7 @@ export default function Navbar({hide, hide1, show}) {
       <div className="container-fluid">
         <Link to="/" className="navbar-brand navbar-legal">LegalPulse</Link>
         <div className="navbar--right-side">
-          <a className="nav-link">Learn</a>
+          <Link to="/learn" className="nav-link">Learn</Link>
           <a className="nav-link">About</a>
           <Link to="/message" className="nav-link nav-linkk" style={show}>Message</Link>
           <Link to="/login" className="nav-link" style={hide}>Login</Link>

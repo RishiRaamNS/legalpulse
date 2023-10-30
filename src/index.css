@@ -1525,3 +1525,134 @@ border-color: #007bff; /* Change border color on hover */
   border-bottom: 1px solid lightgray;
   padding-bottom: 20px;
 }
+
+/* learn page */
+
+
+.learn{
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.learn h1{
+  text-align: center;
+  margin: 40px auto;
+}
+
+.learn-ipcsec{
+  border: 1px solid gainsboro;
+  height: auto;
+  width: 60vw;
+}
+
+.learn-space{
+  padding: 5px;
+}
+
+/* Profile page */
+
+.profile--container {
+  margin: 150px 150px 80px 150px;
+  border-radius: 25px;
+  border: 1px solid gray;
+  padding: 50px 0px;
+  padding-bottom: 0;
+}
+
+
+.profile--icon {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+
+.profile--name {
+  margin-bottom: 5px;
+}
+
+.profile--location {
+  display: inline;
+  margin-left: 5px;
+  margin-top: 0;
+}
+
+.profile--top-section {
+  border-bottom: 1px solid gray;
+  padding: 60px;
+  padding-top: 10px;
+}
+
+.profile--flex-container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+gap: 60px;
+}
+
+.profile--message-btn {
+  outline: none;
+  padding: 10px 20px;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+
+.profile--flex-container-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile--flex-child {
+  width: 700px;
+}
+
+.profile--bottom-section {
+  display: grid;
+  grid-template-columns: 30% 65%;
+  padding: 60px 40px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.profile--left-heading {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.profile--bottom-left {
+   border-right: 1px solid gray;
+   padding: 40px ;
+}
+
+.profile--bottom-right {
+  padding: 40px;
+ 
+}
+
+.profile--right-heading {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.profile--left-lists {
+  margin: 10px;
+}
+
+.profile--left-heading:not(:first-child) {
+  margin-top: 40px;
+}
+
+
+.search--right-side > a {
+  text-decoration: none;
+  color: initial;
+}

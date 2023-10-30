@@ -16,7 +16,7 @@ export default function Clientsignup() {
             <input type="password" className="input second-input"></input>
             <span class="floating-label floating-label-2">Password</span>
             <p className="left-align">Have trouble sigining in?</p>
-            <Link to="/" className="btn btn-primary container--btn">
+            <Link to="/home" className="btn btn-primary container--btn">
               Sign up
             </Link>
             <p className="container--footer-text">
