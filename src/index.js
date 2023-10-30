@@ -20,6 +20,7 @@ import Addbio from './pages/addbio';
 import Addcert from './pages/addcertification';
 import Freelancersignup from './pages/freelancersignup';
 import Clientsignup from './pages/clientsignup';
+import Home from './pages/clienthome';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,7 +29,8 @@ root.render(
     <Routes>
           <Route path="/signup-provider" element={<Freelancersignup />} />
           <Route path='/signup-client' element={<Clientsignup />} />
-          <Route path="/" element={<App style1={{ visibility: hidden}}/>} />
+          <Route path="/" element={<App hide1={{display: 'none'}}/>} />
+          <Route path="/home" element={<Home hide={{display: 'none'}}/>} />
           <Route path='/login' element={<Login />} />
           <Route path='/search' element={<Search />} />
           <Route path='/getting-started/join' element={<Join />} />

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-export default function Navbar() {
+import {BiUserCircle} from "react-icons/bi"
+export default function Navbar({hide, hide1}) {
   return (
     <nav className="navbar">
       <div className="container-fluid">
@@ -9,9 +9,9 @@ export default function Navbar() {
         <div className="navbar--right-side">
           <a className="nav-link">Learn</a>
           <a className="nav-link">About</a>
-          <a className="nav-link">My Profile</a>
-          <Link to="/login" className="nav-link">Login</Link>
-          <Link to='/getting-started/join' className="btn btn-primary">Sign up</Link>
+          <Link to="/login" className="nav-link" style={hide}>Login</Link>
+          <Link to='/getting-started/join' className="btn btn-primary" style={hide}>Sign up</Link>
+<BiUserCircle className="nav-link nav-icon" style={hide1}/>
         </div>
       </div>
     </nav>

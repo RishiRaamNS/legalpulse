@@ -1,4 +1,3 @@
-import './App.css';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
@@ -31,7 +30,7 @@ const providers = [
   " Legal Consultants",
 ];
 
-function App() {
+export default function App({hide1}) {
   const navigate = useNavigate();
   const handleSubmit = (event) => { 
     navigate("/search")
@@ -53,7 +52,7 @@ function App() {
   return (
     <main className="main-container">
     <div className="top-section">
-      <Navbar />
+      <Navbar hide1={hide1}/>
     </div>
     <div className="section-1 section">
       <div className="left-container">
@@ -243,4 +242,3 @@ function App() {
   );
 }
 
-export default App;

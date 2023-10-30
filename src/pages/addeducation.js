@@ -12,13 +12,19 @@ function Education() {
         <h1 className="heading">
           Clients like to know what you know - add your education here.{' '}
         </h1>
-        <p>
+        <p style={{fontWeight: "500"}}>
           You don't have to have a degree. Adding any relevant education helps make your profile more visible.
         </p>
       </div>
+
       <div className="add-experience">
-        <AiFillPlusCircle className="icon" />
-        <p>Add Education</p>
+      <div className='inside-Box1'> 
+      <div className='inside-Box'>
+      <AiFillPlusCircle className="icon" />
+       <p>Add Education</p>
+      </div>
+     
+      </div>
       </div>
       <div className="check-box-div">
          <label className="checkbox">

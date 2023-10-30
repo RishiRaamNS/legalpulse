@@ -10,7 +10,7 @@ export default function Login() {
             <img src="/login.svg" className="login--hero-img" />
           </div>
           <div className="login--right-container">
-            <Container heading={"Welcome back"} btn={"Log In"} link={"/"}/>
+            <Container heading={"Welcome back"} btn={"Log In"} link={"/home"}/>
           </div>
         </div>
       </div>

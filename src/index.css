@@ -141,6 +141,7 @@ code {
   margin-bottom: 30px;
   font-size: 36px;
   font-weight: 700;
+  font-family: Rza , Rza-fallback;
 }
 
 .section-3 {
@@ -300,10 +301,18 @@ background-color: #FDFFFC;
 }
 
 /* Navbar */
+
+.nav-icon {
+  margin-left: 20px;
+  height: 28px;
+  width: 28px;
+}
 .btn-blue {
   background-color: blue;
 }
-
+.navbar {
+  padding: 0 30px !important;
+}
 .navbar-brand {
    font-family: 'Bebas Neue', sans-serif;
     margin-bottom: 0;
@@ -1029,6 +1038,7 @@ border-color: #007bff; /* Change border color on hover */
   justify-content: space-between;
   display: flex;
   flex-direction: column;
+  float: ;
 }
 
 .check-box{
@@ -1061,9 +1071,19 @@ border-color: #007bff; /* Change border color on hover */
 /*Education page */
 .Education {
   height: 100vh;
-  align-items: center;
   right: 40%;
+}
 
+.inside-Box{
+  font-size: 24px;
+  font-weight: 500;
+  height: 154px;
+  weight: 416px;
+  display: block;
+  box-sizing: border-box;
+  margin-right: 40%;
+  margin-top: 20%;
+  
 }
 
 .getstart-navbar {
@@ -1145,29 +1165,25 @@ border-color: #007bff; /* Change border color on hover */
 
 .content {
   max-width: auto;
-  margin-top: 40px;
-  margin-left: 20px;
+  margin-left: 5%;
+
   padding: 20px;
-  text-align: center;
 }
 
 .add-experience {
+  background-color: #F7FAF7;
   max-width: auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   padding: 20px;
   margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10%;
   margin-bottom: auto;
-  height: 160px;
-  width: 280px;
-  border: 1px solid blue;
+  height: 262px;
+  width: 490px;
+  border: 2px dashed #E4EBE4;
   border-radius: 10px;
 }
-
 /* Certification */
 .Addcert {
   width: auto;
@@ -1327,6 +1343,46 @@ border-color: #007bff; /* Change border color on hover */
   padding: 10px 80px;
 }
 
-/* Client Signup */
+/* Client Home Page */
+.home-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 280px;
+  gap: 100px;
+}
 
+.home-image {
+  width: 500px;
+  height: 300px;
+  padding-top: 30px;
+}
 
+.home-heading {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.home-paragraph {
+  font-size: 16px;
+  padding-right: 160px;
+}
+
+.home-search {
+  margin-top: 20px;
+  outline: none;
+  width: 300px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.home-searchicon {
+  margin-left: -30px;
+  margin-top: -5px;
+}
+
+.home {
+  padding: 30px 10px;
+}
