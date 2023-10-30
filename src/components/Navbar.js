@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="container-fluid">
-        <h1 className="navbar-brand">LegalPulse</h1>
+        <h1 className="navbar-brand navbar-legal">LegalPulse</h1>
         <div className="navbar--right-side">
           <a className="nav-link">Learn</a>
           <a className="nav-link">About</a>

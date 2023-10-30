@@ -11,7 +11,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 // Pages 
 import App from './App';
-import Signup from "./pages/signup"
 import Login from "./pages/login"
 import Search from "./pages/search"
 import Join from "./pages/join"
@@ -19,14 +18,17 @@ import Education from './pages/addeducation';
 import Experience from './pages/addexperience';
 import Addbio from './pages/addbio';
 import Addcert from './pages/addcertification';
+import Freelancersignup from './pages/freelancersignup';
+import Clientsignup from './pages/clientsignup';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/" element={<App />} />
+          <Route path="/signup-provider" element={<Freelancersignup />} />
+          <Route path='/signup-client' element={<Clientsignup />} />
+          <Route path="/" element={<App style1={{ visibility: hidden}}/>} />
           <Route path='/login' element={<Login />} />
           <Route path='/search' element={<Search />} />
           <Route path='/getting-started/join' element={<Join />} />

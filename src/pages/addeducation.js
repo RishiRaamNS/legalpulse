@@ -18,15 +18,15 @@ function Education() {
       </div>
       <div className="add-experience">
         <AiFillPlusCircle className="icon" />
-        <p>Add Experience</p>
+        <p>Add Education</p>
       </div>
       <div className="check-box-div">
-      <label className="checkbox">
+         <label className="checkbox">
         <input type="checkbox" className="check-box" />
         Nothing to add? Check the box and keep going
         <span className="checkmark"></span>
-      </label>
-    </div>
+         </label>
+      </div>
     <Link to='/getting-started/experience'>
     <Getstartbottomnav botButton="Add Your Experience" />
     </Link>

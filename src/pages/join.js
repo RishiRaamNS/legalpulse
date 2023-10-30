@@ -1,14 +1,24 @@
-import React from 'react';
+import React , {useState} from 'react';
 import Getstartnavbar from '../components/getstartnavbar';
-import Getstartbottomnav from '../components/getstartbottomnav';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
-function Submit(){
 
-}
 
 function Join() {
-  var isRegistered;
+  const [selectedOption, setSelectedOption] = useState("Join as a Client");
+  const handleOptionChange = (event) => {
+    setSelectedOption(event.target.value);
+  };
+  const navigate = useNavigate();
+
+function handleClick(){
+   if (selectedOption === "Join as a Client") {
+      navigate("/signup-client")
+    } else {
+     navigate("/signup-provider")
+    }
+}
+
   return (
     <div className="join">
       <Getstartnavbar />
@@ -21,20 +31,30 @@ function Join() {
           <div className="image-container">
             <img src="/client.svg" alt="Client" />
           </div>
-          <input type="radio" name="joinOption" value="client" isRegistered="true"/>
+          <input 
+           type="radio"
+           name="joinOption" 
+           value="Join as a Client"
+           checked={selectedOption === "Join as a Client"}
+            onChange={handleOptionChange}/>
           <p>I'm a client, hiring for a project</p>
         </label>
         <label className="option freelancer">
           <div className="image-container">
             <img src="/Legal.svg" alt="Freelancer" />
           </div>
-          <input type="radio" name="joinOption" value="freelancer" isRegistered="true"/>
+          <input 
+                 type="radio" 
+                 name="joinOption" 
+                 value="Join as a Freelancer"
+                 checked={selectedOption === "Join as a Freelancer"}
+                 onChange={handleOptionChange} />
           <p>I'm a freelancer, looking for work</p>
         </label>
       </div>
       <p>Already have an account? <Link  to="/login">Log In</Link></p>
       <div>
-      <button type="submit">{ isRegistered ? "Join as a Client" : "Apply as a Freelancer"}</button>
+      <button type="submit" onClick={handleClick} >{selectedOption }</button>
   </div>
     </div>
     </div>
