@@ -8,6 +8,7 @@ function Education() {
   return (
     <div className="Education">
       <Getstartnavbar />
+      <div className='bb'> 
       <div className="content">
         <h1 className="heading">
           Clients like to know what you know - add your education here.{' '}
@@ -26,13 +27,14 @@ function Education() {
      
       </div>
       </div>
-      <div className="check-box-div">
+      <div className="check-box-div kk">
          <label className="checkbox">
         <input type="checkbox" className="check-box" />
         Nothing to add? Check the box and keep going
         <span className="checkmark"></span>
          </label>
-      </div>
+      </div></div>
+      
     <Link to='/getting-started/experience'>
     <Getstartbottomnav botButton="Add Your Experience" />
     </Link>

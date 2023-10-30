@@ -22,6 +22,8 @@ import Freelancersignup from './pages/freelancersignup';
 import Clientsignup from './pages/clientsignup';
 import Home from './pages/clienthome';
 
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -38,6 +40,7 @@ root.render(
           <Route path='/getting-started/experience' element={<Experience />} />
           <Route path="/getting-started/bio" element={<Addbio />} />
           <Route path='/getting-started/certification' element={<Addcert />} />
+          <Route path='/getting-started/message' element={<Message />} />
        </Routes>
     </BrowserRouter>
   </React.StrictMode>

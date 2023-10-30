@@ -141,7 +141,6 @@ code {
   margin-bottom: 30px;
   font-size: 36px;
   font-weight: 700;
-  font-family: Rza , Rza-fallback;
 }
 
 .section-3 {
@@ -504,7 +503,7 @@ top: -50px;
 .container--footer-text, .container--footer-link {
   font-size: 14px;
   margin: 0;
-  margin-top: 120px;
+  margin-top: 20px;
 }
 
 .container--footer-link {
@@ -1032,17 +1031,11 @@ border-color: #007bff; /* Change border color on hover */
 .check-box-div{
   width: 500px;
   height: 80px;
-  margin: 0px auto 15px;
   padding: 5px;
   border-radius: 5px;
-  justify-content: space-between;
-  display: flex;
   flex-direction: column;
-  float: ;
-}
+  margin-left: 8% !important;
 
-.check-box{
-  margin-right: 10px;
 }
 
 .create-btn button{
@@ -1165,9 +1158,9 @@ border-color: #007bff; /* Change border color on hover */
 
 .content {
   max-width: auto;
-  margin-left: 5%;
-
+  margin-left: 9%;
   padding: 20px;
+
 }
 
 .add-experience {
@@ -1351,6 +1344,7 @@ border-color: #007bff; /* Change border color on hover */
   justify-content: center;
   padding: 100px 280px;
   gap: 100px;
+  margin-top: 70px;
 }
 
 .home-image {
@@ -1373,7 +1367,7 @@ border-color: #007bff; /* Change border color on hover */
 .home-search {
   margin-top: 20px;
   outline: none;
-  width: 300px;
+  width: 200px;
   height: 40px;
   padding-left: 10px;
 }
@@ -1385,4 +1379,17 @@ border-color: #007bff; /* Change border color on hover */
 
 .home {
   padding: 30px 10px;
+}
+
+.home-blob {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  float: right;
+  right: 130px;
+  top: 320px;
+}
+
+.home-searchbtn {
+  margin-bottom: 5px;
 }

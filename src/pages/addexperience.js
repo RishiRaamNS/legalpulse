@@ -18,8 +18,12 @@ export default function Experience() {
         </p>
       </div>
       <div className="add-experience">
-        <AiFillPlusCircle className="icon" />
-        <p>Add Experience</p>
+      <div className='inside-Box1'> 
+      <div className='inside-Box'>
+      <AiFillPlusCircle className="icon" />
+       <p>Add Education</p>
+      </div>
+      </div>
       </div>
       <div>
       <Link to='/getting-started/certification'>

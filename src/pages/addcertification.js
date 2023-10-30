@@ -16,10 +16,14 @@ export default function Addcert() {
         </p>
       </div>
       <div>
-        <div className="add-certification">
-        <AiFillPlusCircle className="icon" />
-          <p>Add certifications</p>
-        </div>
+      <div className="add-experience">
+      <div className='inside-Box1'> 
+      <div className='inside-Box'>
+      <AiFillPlusCircle className="icon" />
+       <p>Add Education</p>
+      </div>
+      </div>
+      </div>
         <div className="check-box-div">
          <label className="checkbox">
         <input type="checkbox" className="check-box" />

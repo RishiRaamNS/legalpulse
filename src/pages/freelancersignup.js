@@ -50,7 +50,6 @@ export default function Freelancersignup() {
             <span class="floating-label floating-label-3">Password</span>
              <DropDown />
 
-            <p className="left-align">Have trouble sigining in?</p>
             <Link to="/getting-started/education" className="btn btn-primary container--btn">
               Sign up
             </Link>
