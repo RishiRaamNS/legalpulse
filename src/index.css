@@ -1431,30 +1431,86 @@ border-color: #007bff; /* Change border color on hover */
 }
 /* Message*/
 .message{
- margin-left: 2%;
+ display: grid;
+ grid-template-columns: 35% 65%;
+ margin-left: 10px;
+ gap: 0px;
+
 }
-.message-sidebar{
- background:#f1f1f3; 
- height: 616px;
- width: 350px;
- text-align: center;
- border-radius: 25px;
- padding: 20px;
- font-size: large;
- margin-top: 1%;
+.message-flex-container{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+
 }
-.searchbar {
-  width: 335px;
-  border-radius: 15px;
+.message-flex-container h1{
+  font-size: 20px;
+}
+
+.message-image {
+  width: 300px;
+  height: 300px;
+}
+.flex-text{
+  align-items: center;
+  text-align: center;
+  
+}
+
+.message-left-bottom {
+  background-color: rgb(245, 245, 247);
+  margin-top: 20px;
+  padding: 20px 5px;
+  height: 67.5vh;
+  border-radius: 20px;
+}
+.nav-linkk {
+  visibility: hidden;
+}
+.message-left-paragraph {
+  margin-top: 200px;
   text-align: center;
 }
-
-.searchbar-box{
+.message-search-bar {
+  width: 320px;
+  border-radius: 15px;
+  border: 1px solid lightgray;
+  outline: none;
+  padding: 5px;
+  margin-top: 30px;
+}
+.message-icon, .message-setting-icon {
+  width: 30px;
+  height: 30px;
+}
+.message-left-heading , .message-more-icon{
+  display: inline;
+  
+}
+.message-more-icon{
+  font-size: 40px;
+  margin-right: 30px;
+  float: right;
+  margin-top: 10px;
+}
+.message-left-side{
+  width: fit-content;
+  padding-top:20px;
+}
+.message-right-side{
   display: flex;
-   flex-direction: row;
-   justify-content: space-between ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
 }
 
+.message-search-icon {
+ position: absolute;
+ float: left;
+ top: 26.6%;
+ left: 20px;
+}
 /* Provider Home */
 .provider-home-flex {
   display: flex;

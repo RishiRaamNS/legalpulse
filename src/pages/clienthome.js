@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export default function Home({hide}) {
   return (
     <div className='home'>
-        <Navbar hide={hide} />
+        <Navbar hide={hide} show={{visibility: 'visible'}}/>
         <div className='home-flex'>
           <div className='home-left'>
             <h1 className='home-heading'>Welcome! Let's hire your first Legal Service Provider</h1>
